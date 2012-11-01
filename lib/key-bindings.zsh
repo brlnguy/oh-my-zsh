@@ -19,8 +19,8 @@ bindkey "^[[4~" end-of-line
 bindkey "^[OF" end-of-line
 bindkey ' ' magic-space    # also do history expansion on space
 
-bindkey "^[[1;5C" forward-word
-bindkey "^[[1;5D" backward-word
+bindkey "^[^[[C" forward-word
+bindkey "^[^[[D" backward-word
 
 bindkey '^[[Z' reverse-menu-complete
 
